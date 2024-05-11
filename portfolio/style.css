@@ -1,0 +1,191 @@
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.logo p {
+    font-size: large;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    margin: 0 15px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Home */
+
+#home-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#home {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine;
+    width: 600px;
+    height: 650px; */
+}
+
+.contain i {
+    margin-top: 10px;
+}
+
+.profile-pic img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.tech-stack {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.tech-stack p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.tech-stack i {
+    margin: 0 25px 0 25px;
+}
+
+
+/* About Me */
+
+#about-container {
+    /* /* display: grid;
+    place-items: center;
+    height: 100vh; */
+    /* background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 500px;  */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 800px;
+    margin: 2px;
+}
+
+.about-img {
+    margin: 2px;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+.about-img img {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.about-para {
+    color: rgb(74, 70, 70);
+}
+
+.about-p {
+    color: blue;
+    font-size: small;
+    font-weight: 700;
+}
+
+
+/* Project's */
+
+#project-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+/* Contact */
+
+#contact-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.contact-contain {
+    /* background-color: #f4f3ee; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 100px;
+    color: rgb(61, 53, 53);
+}
+
+.cont-para {
+    display: grid;
+    place-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    color: rgb(52, 52, 154);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    color: rgb(52, 52, 154);
+    background-color: white;
+    border-radius: 5px;
+}

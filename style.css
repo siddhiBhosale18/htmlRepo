@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.img-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    position:relative;
+    width:80%
+    overflow:hidden;
+    text-align: center;
+}
+
+.img-container img{
+    position:absolute;
+    height:300px;
+    width:500px;
+    opacity:0;
+    transition:opacity 1s;
+}
+
+.img-container img:first-child{
+    opacity:1;
+}
+
+@keyframes changeImg{
+
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:1;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+.img-container img {
+    animation: changeImg 12s infinite;
+}
+/* 
+.img-container img:nth-child(1){
+    animation: changeImg 15s infinite;
+}
+
+.img-container img:nth-child(2){
+    animation: changeImg 15s infinite;
+}
+
+.img-container img:nth-child(3){
+    animation: changeImg 15s infinite;
+}
+ */
+
